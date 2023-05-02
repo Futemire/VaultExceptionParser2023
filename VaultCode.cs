@@ -1,4 +1,4 @@
-﻿namespace VaultExceptionParser2024
+﻿namespace VaultExceptionParser2023
 {
     using System.ComponentModel;
 
@@ -17,7 +17,7 @@
         /// <summary>
         /// The type of Code returned from Vault.
         /// </summary>
-        public enum ECodeType
+        public enum eCodeType
         {
             /// <summary>
             /// The Code is an Error returned from Vault.
@@ -51,7 +51,7 @@
         /// <summary>
         /// The type of code, Error or Restriction.
         /// </summary>
-        public ECodeType Type { get; }
+        public eCodeType Type { get; }
 
         /// <summary>
         /// The Vault Year Version of the Error or Restriction code.
