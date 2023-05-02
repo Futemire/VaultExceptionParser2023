@@ -1,4 +1,4 @@
-﻿namespace VaultExceptionParser2024
+﻿namespace VaultExceptionParser2023
 {
 
     public interface ICode
